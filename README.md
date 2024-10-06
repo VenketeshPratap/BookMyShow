@@ -7,7 +7,6 @@ Features
 User Authentication: Users can register and log in using APIs.
 Event Management: Admins can add, update, and delete events.
 Ticket Booking: Users can book tickets for events.
-Payment Handling: Basic structure for payment gateway integration.
 Django REST Framework: All features are accessible via REST APIs.
 Prerequisites
 Before you begin, ensure you have met the following requirements:
@@ -20,7 +19,7 @@ Project Setup
 1. Clone the Repository
 bash
 Copy code
-git clone https://github.com/venketesh/bookmyshow-simplified.git
+git clone https://github.com/***
 cd bookmyshow-simplified
 2. Create a Virtual Environment and Activate It
 bash
