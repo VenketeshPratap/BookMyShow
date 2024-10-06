@@ -108,39 +108,7 @@ Response: Payment confirmation (this can be extended with real payment gateways)
 Project Structure
 graphql
 Copy code
-bookmyshow-simplified/
-│
-├── users/                  # User authentication app
-│   ├── models.py           # User models
-│   ├── views.py            # User views (Login, Register)
-│   ├── urls.py             # URLs for login and register
-│   └── serializers.py      # DRF serializers for user data
-│
-├── events/                 # Event management app
-│   ├── models.py           # Event models
-│   ├── views.py            # Event CRUD views
-│   ├── urls.py             # URLs for event operations
-│   └── serializers.py      # DRF serializers for event data
-│
-├── tickets/                # Ticket booking app
-│   ├── models.py           # Ticket models
-│   ├── views.py            # Ticket booking logic
-│   ├── urls.py             # URLs for booking tickets
-│   └── serializers.py      # DRF serializers for ticket data
-│
-├── payments/               # Payment handling app
-│   ├── models.py           # Payment models
-│   ├── views.py            # Payment processing logic
-│   ├── urls.py             # URLs for payment processing
-│   └── serializers.py      # DRF serializers for payment data
-│
-├── project_name/           # Main Django project folder
-│   ├── settings.py         # Django settings
-│   ├── urls.py             # Project-level URL config
-│   └── wsgi.py             # WSGI config for deployment
-│
-├── manage.py               # Django management script
-└── README.md               # Project documentation
+
 Testing
 You can test the API endpoints using Postman or curl. For example:
 
